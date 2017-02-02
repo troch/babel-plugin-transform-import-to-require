@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src/index.js -o index.js",
-    "test": "NODE_ENV=test mocha --compilers js:babel-core/register 'test/*.js'"
+    "test": "NODE_ENV=test mocha --compilers js:babel-core/register 'test/*.js'",
+    "prepublish": "npm run build;npm test"
   },
   "repository": {
     "type": "git",
