@@ -25,7 +25,7 @@ I use a higher-order component in React to lazy load components for code-splitti
 See [https://webpack.js.org/guides/lazy-load-react/](https://webpack.js.org/guides/lazy-load-react/)
 
 
-## Limitations
+## Caveat
 
 Your code consuming `import()` needs to account for it to be a promise or the module itself.
 
